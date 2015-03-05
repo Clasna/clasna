@@ -1,0 +1,14 @@
+.grid-view .sort-link{
+	color: rgb(112, 112, 112);
+	text-decoration: none;
+	font-size: 14px;
+	text-decoration: none;
+}
+/*
+.grid-view table.items th a.asc {
+	background: url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}*/
+.grid-view .filters input, .grid-view .filters select {
+	width: 100%;
+}

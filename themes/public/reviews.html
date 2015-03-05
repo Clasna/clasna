@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/my-style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Bootstrap -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.rating-2.0.min.js"></script>
+    <script type="text/javascript">
+$(function(){
+	
+	$('.rating_1').rating({
+		fx: 'full',
+        image: 'img/stars.png',
+        loader: 'img/ajax-loader.gif',
+		url: 'rating.php',
+        callback: function(responce){
+            
+            this.vote_success.fadeOut(2000);
+        }
+	});
+	
+
+});
+</script>
+	 <header>
+            <div class="buttonsEnter">
+              <div class="buttonsEnter-holder"> 
+                <a href="#" class="enter">Войти</a>
+                    <a href="#" class="registr">Зарегистрироваться</a>
+                    <a href="#" class="logout">Выйти</a>
+                    <label class="labelB">
+                        <select>
+                            <option selected>Воронеж</option>
+                            <option>Воронеж</option>
+                            <option>Воронеж</option>
+                        </select>
+                    </label>​
+                </div>
+                <img class="arka" src="img/head.png">
+                <h1 class="arka">Каталог служб для свадебных приготовлений и церемоний</h1>
+            </div>
+	</header>
+        <div class="leftContent">
+            <img src="img/lv.png">
+        </div>
+	<div class="content">
+		<div class="albumFoto">
+			<p>Главная ->Отзывы</p>
+			<hr>
+                        <div class="review">
+                            <div class="reviewHead">
+                                <p class="theme">Превосходное качество</p>
+                                <p class="time"><span>Дата отзыва:</span> 2012-07-16</p>
+                            </div>
+                            <div class="who">
+                                <div class="who1">
+                                    <p>Светлана</p>
+                                    <img src="img/cat.png" alt="">
+                                </div>
+                                <div class="who2">
+                                    <img src="img/cat2.png" alt="">
+                                    <p>Анна</p>
+                                </div>
+                                <div class="border-wrap"> 
+                                    <div class="rating_1">
+                                    <input type="hidden" name="vote-id" value="1"/>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="reviewText">
+                                <p> Хочу написать вам,что мы в полном восторге от фотографий!!</p>
+                                
+                            </div>
+                            <a href="">Читать весь отзыв</a>
+                        </div>
+                        <div class="review">
+                            <div class="reviewHead">
+                                <p class="theme">Превосходное качество</p>
+                                <p class="time"><span>Дата отзыва:</span> 2012-07-16</p>
+                            </div>
+                            <div class="who">
+                                <div class="who1">
+                                    <p>Светлана</p>
+                                    <img src="img/cat.png" alt="">
+                                </div>
+                                <div class="who2">
+                                    <img src="img/cat2.png" alt="">
+                                    <p>Анна</p>
+                                </div>
+                                <div class="border-wrap"> 
+                                    <div class="rating_1">
+                                    <input type="hidden" name="vote-id" value="1"/>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="reviewText">
+                                <p> Хочу написать вам,что мы в полном восторге от фотографий!!</p>
+                                
+                            </div>
+                            <a href="">Читать весь отзыв</a>
+                        </div>
+                        <div class="review">
+                            <div class="reviewHead">
+                                <p class="theme">Превосходное качество</p>
+                                <p class="time"><span>Дата отзыва:</span> 2012-07-16</p>
+                            </div>
+                            <div class="who">
+                                <div class="who1">
+                                    <p>Светлана</p>
+                                    <img src="img/cat.png" alt="">
+                                </div>
+                                <div class="who2">
+                                    <img src="img/cat2.png" alt="">
+                                    <p>Анна</p>
+                                </div>
+                                <div class="border-wrap"> 
+                                    <div class="rating_1">
+                                    <input type="hidden" name="vote-id" value="1"/>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="reviewText">
+                                <p> Хочу написать вам,что мы в полном восторге от фотографий!!</p>
+                                
+                            </div>
+                            <a href="">Читать весь отзыв</a>
+                        </div>
+                        <div class="review">
+                            <div class="reviewHead">
+                                <p class="theme">Превосходное качество</p>
+                                <p class="time"><span>Дата отзыва:</span> 2012-07-16</p>
+                            </div>
+                            <div class="who">
+                                <div class="who1">
+                                    <p>Светлана</p>
+                                    <img src="img/cat.png" alt="">
+                                </div>
+                                <div class="who2">
+                                    <img src="img/cat2.png" alt="">
+                                    <p>Анна</p>
+                                </div>
+                                <div class="border-wrap"> 
+                                    <div class="rating_1">
+                                    <input type="hidden" name="vote-id" value="1"/>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="reviewText">
+                                <p> Хочу написать вам,что мы в полном восторге от фотографий!!</p>
+                                
+                            </div>
+                            <a href="">Читать весь отзыв</a>
+                        </div>
+                        <div class="pagination-centered">
+                            <a class="pagePrev" href=""><<</a>
+                            <a class="pageNumB"  href="">1</a>
+                            <a class="pageNumB"  href="">2</a>
+                            <a class="pageNumB"  href="">3</a>
+                            <a class="pageNumB"  href="">4</a>
+                            <a class="pageNumB"  href="">5</a>
+                            <a class="pageNext"  href="">>></a>
+                        </div>
+		</div>
+            
+	</div>
+        <div class="rightContent">
+            <img src="img/rv.png">
+        </div>
+	 <footer>
+		<menu>
+			<ul>
+				<li><a href="#">Главная страница</a></li>
+				<li><a href="#">Обучающее видео</a></li>
+				<li><a href="#">Правила пользования</a></li>
+				<li class="active"><a href="#">Отзывы</a></li>
+				<li><a href="#">Статьи</a></li>
+				<li><a href="#">Обратная связь</a></li>
+                                <li id="gplus"><a href="#"><img src="img/gplus.png" alt="g+"></a></li>
+			</ul>
+		</menu>
+		<p id="copy"> Powered by Smithysoft™ All rights reserved. <br>support@smithysoft</p>
+	</footer>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+.grid-view-loading {
+    background: url("loading.gif") no-repeat scroll 0 0 transparent;
+}
+.grid-view {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 15px 0;
+}
+.grid-view table.items {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+	color:#616161;
+}
+.grid-view table.items th {	
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgb(255,255,255) 1%, rgb(240,240,240) 100%, rgb(255,255,255) 100%, rgb(125,185,232) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgb(255,255,255)), color-stop(100%,rgb(240,240,240)), color-stop(100%,rgb(255,255,255)), color-stop(100%,rgb(125,185,232))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgb(255,255,255) 1%,rgb(240,240,240) 100%,rgb(255,255,255) 100%,rgb(125,185,232) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgb(255,255,255) 1%,rgb(240,240,240) 100%,rgb(255,255,255) 100%,rgb(125,185,232) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgb(255,255,255) 1%,rgb(240,240,240) 100%,rgb(255,255,255) 100%,rgb(125,185,232) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgb(255,255,255) 1%,rgb(240,240,240) 100%,rgb(255,255,255) 100%,rgb(125,185,232) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #E3E3E3;
+	height:30px;
+	text-align: center;
+}
+.grid-view table.items th a{
+	color:#616161;	
+	text-decoration: none;
+	font-weight: normal;
+}
+#cities-grid_c0 {
+	width:70px;
+}
+.grid-view table.items th a.asc {
+    background: url("up.gif") no-repeat scroll right center transparent;
+    padding-right: 10px;
+}
+.grid-view table.items th a.desc {
+    background: url("down.gif") no-repeat scroll right center transparent;
+    padding-right: 10px;
+}
+.grid-view table.items tr.even {
+    background: none repeat scroll 0 0 #f2f2f2;
+	height:30px;
+}
+.grid-view table.items tr.odd {
+    background: none repeat scroll 0 0 #e6e6e6;
+	height:30px;
+}
+.grid-view table.items tr.selected {
+    background: none repeat scroll 0 0 #BCE774;
+}
+.grid-view table.items td{
+	padding:1px 1px 1px 10px;
+}
+.grid-view .link-column img {
+    border: 0 none;
+}
+.grid-view .button-column {
+    text-align: center;
+    width: 60px;
+}
+.grid-view .button-column img {
+    border: 0 none;
+}
+.grid-view .checkbox-column {
+    width: 15px;
+}
+.grid-view .summary {
+    margin: 0 0 5px;
+    text-align: right;
+	color:#616161;
+}
+.grid-view .pager {
+    margin: 5px 0 0;
+    text-align: right;
+	color:#616161;
+}
+.grid-view .empty {
+    font-style: italic;
+}
+.grid-view .filters input, .grid-view .filters select {
+    border: 1px solid #CCCCCC;
+    width: 100%;
+}
+.grid-view table.items .filters td{
+	padding:1px;
+}
+.grid-view table.items .filters input {
+    height: 25px;
+    margin: 10px 0;
+}
+ul.yiiPager {
+    border: 0 none;
+    display: inline;
+    font-size: 11px;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul.yiiPager li {
+    display: inline;
+}
+ul.yiiPager a:link, ul.yiiPager a:visited {
+	color:#F54E37;
+    font-family: Arial;
+    padding: 1px 6px;
+    text-decoration: none;
+}
+ul.yiiPager .page a {
+    font-weight: normal;
+}
+ul.yiiPager a:hover {
+   background:none repeat scroll 0 0 #EBEBEB;
+}
+ul.yiiPager .selected a {
+    background: none repeat scroll 0 0 #EBEBEB;
+    color: #F54E37;
+}
+ul.yiiPager .hidden a {
+    color: #616161;
+}
+ul.yiiPager .first, ul.yiiPager .last {
+    display: none;
+}
+
+
